@@ -35,7 +35,7 @@ nav {
   margin-right: 40px;
 }
 
-#hamburger-icon {
+.hamburger-icon {
   display: none;
 }
 
@@ -164,4 +164,20 @@ footer li {
 
 .icons li i {
   margin: 5px 10px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .nav-link {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+  }
+  .navigation {
+    justify-content: space-between;
+  }
+  #login {
+    margin-right: 5px;
+  }
 }
