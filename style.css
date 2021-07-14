@@ -1,12 +1,13 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
 header {
   background-color: #2d25a0;
   color: white;
 }
 nav {
-  margin-bottom: 200px;
+  margin-bottom: 6em;
 }
 .navigation {
   display: flex;
@@ -42,6 +43,7 @@ nav {
   background-color: #e02c6d;
   color: white;
   padding: 5px 20px;
+  border: none;
 }
 
 #login {
@@ -50,19 +52,22 @@ nav {
   justify-content: space-evenly;
 }
 
-#live {
+.live {
   margin-left: 10px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-#login-text {
+.live i {
   margin-left: 10px;
+  padding-left: 5px;
 }
 
+#login-text,
 #live-text {
-  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 15px;
 }
 
 .arrow-right {
@@ -86,8 +91,8 @@ nav {
   width: 80%;
 }
 
-.players-profiles {
-  margin: 15px 15%;
+.player-profiles {
+  margin: 3em 15%;
 }
 
 .players {
@@ -112,4 +117,51 @@ nav {
 #player-intro {
   text-align: center;
   font-size: 3em;
+}
+
+.highlights {
+  display: grid;
+  margin: 3em 15%;
+  grid-template-columns: repeat(2, 1fr);
+}
+#highlight-commentry {
+  display: flex;
+  align-items: center;
+}
+
+#highlight-commentry h1 {
+  font-size: 4em;
+  font-weight: 900;
+  margin: 0.8em;
+}
+
+#highlight-commentry p {
+  color: gray;
+}
+
+#highlights-img img {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 0.8em;
+}
+
+footer img {
+  width: 20%;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+.icons {
+  display: flex;
+}
+
+.icons li i {
+  margin: 5px 10px;
 }
