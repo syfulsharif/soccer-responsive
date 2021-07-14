@@ -29,10 +29,7 @@ nav {
 .btn {
   background-color: #e02c6d;
   color: white;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 25px;
-  padding-right: 20px;
+  padding: 5px 20px;
 }
 
 #login {
@@ -43,4 +40,12 @@ nav {
 
 #login-text {
   margin-left: 10px;
+}
+
+#live-text {
+  margin-right: 10px;
+}
+
+.arrow-right {
+  font-size: 20px;
 }
