@@ -1,0 +1,46 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  margin-bottom: 200px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items li {
+  list-style-type: none;
+  font-size: 1.2em;
+  margin-right: 40px;
+}
+
+#hamburger-icon {
+  display: none;
+}
+
+.btn {
+  background-color: #e02c6d;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+#login {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#login-text {
+  margin-left: 10px;
+}
