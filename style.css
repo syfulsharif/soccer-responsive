@@ -70,10 +70,6 @@ nav {
   font-size: 15px;
 }
 
-.arrow-right {
-  font-size: 20px;
-}
-
 .hero-text,
 .hero-img {
   display: flex;
@@ -167,7 +163,29 @@ footer li {
 }
 
 /* Media Queries */
-@media (max-width: 1200px) {
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media only screen and (min-width: 1281px) {
+  .hero-text h1 {
+    font-size: 3em;
+  }
+
+  .highlight-commentry h1 {
+    font-size: 3em;
+    font-weight: 900;
+    margin: 10px;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media only screen and (max-width: 1280px) {
   .nav-link {
     display: none;
   }
@@ -178,6 +196,57 @@ footer li {
     justify-content: space-between;
   }
   #login {
-    margin-right: 5px;
+    margin-right: 2.5em;
+  }
+  #live {
+    margin-right: 2.5em;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media only screen and (max-width: 1024px) {
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .highlights {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .highlights-img img {
+    margin-top: 2em;
+  }
+  .highlights-img,
+  .highlight-commentry {
+    justify-content: center;
+  }
+  .player-profiles,
+  .highlights {
+    margin: 3em 6.25em;
+  }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 320px to 767px
+*/
+
+@media only screen and (max-width: 767px) {
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player-profiles,
+  .highlights {
+    margin: 3em 0.625em;
+  }
+  .banner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero-text {
+    margin-bottom: 40px;
+  }
+  #hightlight-btn {
+    margin-bottom: 30px;
   }
 }
