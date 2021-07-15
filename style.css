@@ -178,8 +178,8 @@ footer li {
     font-size: 60px;
   }
 
-  .highlight-commentry h1 {
-    font-size: 3em;
+  #highlight-commentry h1 {
+    font-size: 60px;
     font-weight: 900;
     margin: 10px;
   }
@@ -226,7 +226,7 @@ footer li {
     margin-top: 2em;
   }
   .highlights-img,
-  .highlight-commentry {
+  #highlight-commentry {
     justify-content: center;
   }
   .player-profiles,
@@ -259,5 +259,10 @@ footer li {
   }
   #hightlight-btn {
     margin-bottom: 30px;
+  }
+
+  #highlight-commentry h1 {
+    font-size: 40px;
+    font-weight: 700;
   }
 }
