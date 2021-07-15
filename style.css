@@ -78,7 +78,7 @@ nav {
 }
 
 .hero-text h1 {
-  font-size: 4.5em;
+  font-size: 60px;
   font-weight: 900;
   margin: 15px;
 }
@@ -171,7 +171,7 @@ footer li {
 
 @media only screen and (min-width: 1281px) {
   .hero-text h1 {
-    font-size: 3em;
+    font-size: 60px;
   }
 
   .highlight-commentry h1 {
@@ -198,7 +198,7 @@ footer li {
   #login {
     margin-right: 2.5em;
   }
-  #live {
+  .live {
     margin-right: 2.5em;
   }
 }
@@ -233,6 +233,9 @@ footer li {
 */
 
 @media only screen and (max-width: 767px) {
+  .hero-text h1 {
+    font-size: 40px;
+  }
   .players {
     grid-template-columns: repeat(1, 1fr);
   }
