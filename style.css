@@ -8,6 +8,7 @@ header {
 }
 nav {
   margin-bottom: 6em;
+  display: flex;
 }
 .navigation {
   display: flex;
